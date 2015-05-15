@@ -1,0 +1,316 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//ES" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Personal profile page - ZikZak" />
+  <meta name="keywords" content="profile, theme, css, html, jquery, transition, transform" />
+  <meta name="robots" content="noindex, follow" />
+  <title>Felipe Cediel</title>
+  <link rel='stylesheet' type='text/css' href='stylesheet.css'/>   
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' href='magnific-popup/magnific-popup.css'/>  
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script type='text/javascript' src="script.js"></script>  
+  <script src="js/modernizr.custom.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <script type='text/javascript' src='magnific-popup/jquery.magnific-popup.min.js'></script> 
+  <script src="magnific-popup/jquery.magnific-popup.js"></script> 
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
+  <script type="text/javascript">
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                var mapOptions = {
+                    zoom: 11,
+                    center: new google.maps.LatLng(40.578466,-73.840963),
+                    scrollwheel: false, 
+
+                    styles: [{stylers:[{hue:'#2c3e50'},{saturation:250}]},{featureType:'road',elementType:'geometry',stylers:[{lightness:50},{visibility:'simplified'}]},{featureType:'road',elementType:'labels',stylers:[{visibility:'off'}]}]
+                };
+
+                var mapElement = document.getElementById('map');
+
+                var map = new google.maps.Map(mapElement, mapOptions);
+                
+                 var marker = new google.maps.Marker({
+                            position: map.getCenter(),
+                            map: map,
+                            title: 'Click to zoom'
+                            });
+            }
+  </script>
+  <!--USE TO GOOGLE MAPS AND CHANGE YOUR GPS ON LINE 33. EXAMPLE FOR NEW YORK: 40.747257,-74.003906.-->
+  </head>   
+<body>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'XXXXXXXX', 'vxs.cz');
+  ga('send', 'pageview');
+
+</script>
+  <div id="navigation">
+    <div class="navigation-wrapper">
+    <!--CHANGE YOUR NAME-->
+    <span id="navigation-name">Felipe Cediel</span>  
+    <span id="item_1">ABOUT ME</span>
+    <span id="item_2">RESUME</span>
+    <span id="item_3">MY WORK</span>
+    <span id="item_4">CONTACT</span>
+    </div>
+  </div>
+    <div id="form1" runat="server">
+    <div id="header-headlines">
+        <p>Hola, mi nombre es</p>
+        <!--CHANGE YOUR NAME-->
+        <span>Felipe Cediel</span>
+        <!--CHANGE YOUR PROFESSION-->
+        <p>Soy una gueva</p>
+    </div>   
+        <div class="hi-icon-wrap hi-icon-effect-1 hi-icon-effect-1a">
+        <!--CHANGE "#" TO YOUR TWITTER URL, FACEBOOK URL AND LINKEDIN URL-->
+        <a href="#" class="hi-icon hi-icon-mobile"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="hi-icon hi-icon-screen"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="hi-icon hi-icon-earth"><i class="fa fa-linkedin"></i></a>
+        </div>
+    <div class="arrow animated bounce">
+    <img width="40" height="40" alt="" src="" />
+    </div>     
+    <div id="header">   
+        <div id='home-screen'>
+        <div id='overlay-black'></div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="content">
+          <div id="about">
+            <div class="headlines" id="headlines-about">Sobre <p>Mi</p>
+              <!--UPLOAD YOUR PHOTO TO FOLDER "IMG" WITH SAME NAME - profile-photo.png. THE PHOTO SIZE IS 196 x 196 px-->
+              <img id="my_photo" src="img/profile-photo.png">
+            </div>
+            <!--CHANGE TEXT ABOUT YOU-->
+            <div id="about-me-box">Diseñador , tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh alte rivero nantasy muldaos kelty. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh alte rivero nantasy muldaos kelty. Fusce dapibus, tellus ac cursus commodo, tortor mauris. Duis mollis, non commodo luctus, nisi erat porttitor.
+              <!--HERE YOU CAN EDIT SKILLS. CHANGE ONLY TEXT BETWEEN <span>-->
+              <!--THE VALUTE CHANGE IN FILE script.js-->
+              <p class="skills-line" id="line-1"><span>Publicista</span></p>
+              <p class="skills-line" id="line-2"><span>Creativo Grafico</span></p>
+              <p class="skills-line" id="line-3"><span>SEO</span></p> 
+              <p class="skills-line" id="line-4"><span>HTML</span></p>
+            </div>
+          </div>     
+        </div>
+        <div id="content1">
+            <div id="resume">
+              <div class="headlines" id="headlines-resume">RESUME</div>
+              <div id="resume-box">
+                <div class="selection-resume">
+                <div class="icons"><i class="fa fa-leaf"></i></div>
+                <!--CHANGE YOUR EMPLOYMENT-->  
+                <p class="company">Freelancer</p>
+                <!--CHANGE YOUR STATUS--> 
+                <p class="position">UX Designer</p>
+                <!--CHANGE TEXT ABOUT EMPLOYMENT-->
+                <p class="description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh alte rivero nantasy muldaos kelty.</p>
+                </div>
+                <div class="selection-resume">
+                <div class="icons"><i class="fa fa-users"></i></div>
+                <!--CHANGE YEAR--> 
+                <div class="year">2008 - 2010</div> 
+                <p class="company">Company Name</p>
+                <p class="position">Senior Product Manager</p>
+                <p class="description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh alte rivero nantasy muldaos kelty.</p>
+                </div>
+                <div class="selection-resume">
+                <div class="icons"><i class="fa fa-users"></i></div>  
+                <div class="year">2005 - 2008</div> 
+                <p class="company">Company Name</p>
+                <p class="position">Senior Product Manager</p>
+                <p class="description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh alte rivero nantasy muldaos kelty.</p>
+                </div>
+                <!--IF YOU NEED NEXT EMPLOYMENT, COPY SELECTION START'S "DIV SELECTION-RESUME" ... -->
+                <div class="selection-resume last-selection">
+                <div class="icons"><i class="fa fa-camera"></i></div>  
+                <div class="year">2000 - 2005</div>   
+                <p class="company">University of the Arts London</p>
+                <p class="position">Master of Arts</p>
+                <p class="description last-description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh alte rivero nantasy muldaos kelty.</p>
+                </div>
+                <!--AND END HERE-->
+              </div>  
+            </div>
+        </div>
+        <div id="content2">
+              <div id="work">
+              <div class="headlines" id="headlines-portfolio">MY <p>WORK</p>
+                <ul id='filter'>
+                  <!--EDIT PORTFOLIO CATEGORY NAME'S BETWEEN <li> AND </li>. The data-filter="..." WILL FILTER THE PORTFOLIO BLOCKS WITH CLASS "mix ...". ALL WILL FILTER ALL THE PORTFOLIO BLOCKS. -->
+                  <li class="filter" data-filter="all">All</li>
+                  <li class="filter" data-filter="design">Web Design</li>   
+                  <li class="filter" data-filter="photoghraphy">Photography</li>
+                  <li class="filter" data-filter="illustration">Illustration</li>
+                </ul> 
+              </div>
+              <div id='gallery'>
+                <ul class="ch-grid" id='Grid'>
+                	<li class="mix design">
+                    <!--IMAGES ARE STORED IN THE FOLDER "IMAGES". THUMBNAILS ARE MARKED WITH A NUMBER 1 TO 6. ORIGINAL SIZE HAVE A NUMBER AND "X".-->
+                    <a class="test-popup-link" href="images/1x.jpg">
+          						<div class="ch-item ch-img-1">
+          							<div class="ch-info">
+                          <!--USE WHAT YOU HAVE. FOR EXAMPLE: NAME OF PHOTOGRAPHY AND CLIENT-->
+          								<h3>Use what you have</h3>
+          								<p>Client</p>
+          							</div>
+          						</div>
+                    </a>
+					        </li>
+        					<li class="mix photoghraphy">
+                    <a class="test-popup-link" href="images/2x.jpg">
+          						<div class="ch-item ch-img-2">
+          							<div class="ch-info">
+          								<h3>Use what you have</h3>
+          								<p>Personal</p>
+          							</div>
+          						</div>
+                    </a>
+        					</li>
+        					<li class="mix illustration">
+                    <a class="test-popup-link" href="images/3x.jpg">
+          						<div class="ch-item ch-img-3">
+          							<div class="ch-info">
+          								<h3>Use what you have</h3>
+          								<p>Client</p>
+          							</div>
+          						</div>
+                    </a>  
+        					</li>
+                  <li class="mix illustration">
+                    <a class="test-popup-link" href="images/4x.jpg">
+                      <div class="ch-item ch-img-4">
+                        <div class="ch-info">
+                          <h3>Use what you have</h3>
+                          <p>Personal</p>
+                        </div>
+                      </div>
+                    </a> 
+                  </li>
+                  <li class="mix photoghraphy">
+                    <a class="test-popup-link" href="images/5x.jpg">
+                      <div class="ch-item ch-img-5">
+                        <div class="ch-info">
+                          <h3>Use what you have</h3>
+                          <p>Client</p>
+                        </div>
+                      </div>
+                    </a>  
+                  </li>
+                  <li class="mix design">
+                    <a class="test-popup-link" href="images/6x.jpg">
+                      <div class="ch-item ch-img-6">
+                        <div class="ch-info">
+                          <h3>Use what you have</h3>
+                          <p>Personal</p>
+                        </div>
+                      </div>
+                    </a>   
+                  </li>
+                </ul>  
+              </div>
+              </div>
+        </div>
+        <div id="content3">
+            <div id="contact">
+              <div class="headlines" id="headlines-contact">GET<p>IN</p><p>TOUCH</p>
+                <div>
+                  <!--CHANGE YOUR PHONE NUMBER-->
+                  <p>123 456 789 <i class="fa fa-phone"></i></p>
+                  <!--CHANGE YOUR EMAIL-->
+                  <p>alex.footer@domain.com <i class="fa fa-envelope "></i></p>
+                  <!--CHANGE YOUR WEBSITE-->
+                  <p><a href="#">mywebsite.com</a> <i class="fa fa-globe  "></i></p>
+                  <!--CHANGE YOUR ADRESS-->
+                  <p>Rockaway Park, NY 11694, US <i class="fa fa-map-marker"></i></p>
+                </div>
+              </div>
+              <div id="resume-box">
+                <!--CHANGE TEXT ABOUT YOUR CONTACT-->
+                <div class="selection-resume">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh alte rivero nantasy muldaos kelty.
+                </div>
+                <div id='contact-form'>   
+                <form id="contactform" method="post" name="contactform" action="#">
+                <p>
+                <input class='input' type='text' name='name' class='input' placeholder='Your name'>
+                </p>
+                <p>
+                <input class='input' type='text' name='email' class='input' placeholder='Your e-mail'>
+                </p>
+                <p>
+                <textarea name="message" cols="88" rows="6" class="textarea" placeholder='Your message'></textarea>
+                </p>
+                <p id='p-submit'>
+                <input id="submit"  type="submit" name="submit" value="Send your message" class="button">
+                </p>
+                <div id="success"></div>
+                </form>  
+                </div>
+              </div>  
+            </div>
+        </div>
+        <div id="map"></div>
+        <div id="content4">
+          <div id="selection-download">
+          <!--CHANGE "#" - PASTE YOUR URL TO PDF FILE-->
+          <div id="download"><a href="#">Download as .PDF</a></div>
+          <div id="socila-complet">
+            <!--CHANGE "#" TO YOUR TWITTER URL, FACEBOOK URL ETC.-->
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-dribbble"></i></a>
+            <a href="#"><i class="fa fa-pinterest"></i></a>
+            <a href="#"><i class="fa fa-google-plus"></i></a> 
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+          </div>
+          </div>
+        </div>  
+    </div>
+    <p id="back-top">
+		<a href="#top"><span><i class="fa fa-arrow-up"></i></span></a>
+	  </p>    
+
+    <script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('header').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
+
+    <script type="text/javascript">
+    $(function(){
+     
+    $('#Grid').mixitup();
+     
+    });
+    </script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+            $('.test-popup-link').magnificPopup({type:'image', gallery:{enabled:true}}); 
+            });
+  </script>
+</body>
+</html>
